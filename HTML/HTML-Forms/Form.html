@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Best News Ever!</title>
+
+  </head>
+  <body>
+    <header>
+      <h1>Best Pizza Ever!</h1>
+      <h3>We don't care if it's accurate. We care that it's the BEST</h3>
+
+    </header>
+    <main>
+      <section id="contact-form">
+        <h2>Place order</h2>
+        <form class="" action="place-order.php" method="POST">
+          <h4>Delivery</h4>
+          <input name="deliveryMethod" type="radio" value="delivery" /> Delivery<br />
+          <input name="deliveryMethod" type="radio" value="pickup" /> Pickup<br />
+
+
+          <h4>Address</h4>
+
+          <input name="address1" placeholder="Address Line 1" class="lg-input" />
+          <br />
+          <input name="address2" placeholder="Address Line 2" class="lg-input" />
+          <br />
+
+          <input name="city" placeholder="City" class="sm-input" />
+          <input name="state" placeholder="State" class="sm-input" /><br />
+          <input name="zip" placeholder="Zip Code" class="sm-input" />
+          <br />
+          <br />
+
+          <h4>Size</h4>
+          <select name="size">
+            <option value="12">"12" - $13.99</option>
+            <option value="16">"16" - $16.99</option>
+            <option value="18">"18" - $19.99</option>
+            <option value="72">"72" - $149.99</option>
+          </select>
+
+          <h4>Ingridients</h4>
+
+          <input name="ingridient" type="checkbox" value="pepperoni" /> Pepperoni<br />
+          <input name="ingridient" type="checkbox" value="salami"/> Salami<br />
+          <input name="ingridient" type="checkbox" value="bacon"/> Bacon<br />
+          <input name="ingridient" type="checkbox" value="sausage"/> Italian Sausage<br />
+          <input name="ingridient" type="checkbox" value="onion"/> Onions<br />
+          <input name="ingridient" type="checkbox" value="peppers"/>Green Peppers<br />
+
+          <br /><br />
+
+          <button type="submit">Place Order</button>
+
+        </form>
+      </section>
+
+      <footer>
+        <center>&copy; 2021 <br />
+          <a href="#"><h1>Terms of Service</h1></a>
+        </center>
+      </footer>
+    </main>
+
+  </body>
+</html>
