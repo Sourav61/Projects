@@ -1,0 +1,1 @@
+export PATH=~/pipboy/package.json/bin:$PATH
